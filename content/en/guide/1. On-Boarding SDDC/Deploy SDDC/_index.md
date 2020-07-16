@@ -6,7 +6,7 @@ description: >
   How to connect to your AWS account and deploy your SDDC
 ---
 
-## Overview
+## Overview of SDDC
 
 In this guide we will be deploying your VMware SDDC to Amazon
 
