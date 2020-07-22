@@ -2,6 +2,7 @@
 title: "Site Recovery Manager (SRM) Lab"
 date: 2020-03-25
 tags: workshop
+author: Kerry Holton
 description: >
   
 ---
