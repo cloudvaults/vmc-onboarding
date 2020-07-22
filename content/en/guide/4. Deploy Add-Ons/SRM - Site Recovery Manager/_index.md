@@ -2,6 +2,7 @@
 title: "SRM - Site Recovery Manager"
 linkTitle: "SRM - Site Recovery Manager"
 weight: 2
+date: 2020-07-22
 description: >
   How to install SRM for VMware Cloud on AWS 
 ---
