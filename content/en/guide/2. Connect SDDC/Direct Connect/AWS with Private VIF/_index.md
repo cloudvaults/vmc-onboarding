@@ -2,6 +2,7 @@
 title: "AWS with Private VIF"
 linkTitle: "AWS with Private VIF"
 weight: 2
+date: 2020-05-06
 description: >
   How to connect to your SDDC with AWS Private VIF
 ---

@@ -2,6 +2,7 @@
 title: "Direct Connect"
 linkTitle: "Direct Connect"
 weight: 2
+date: 2020-05-06
 description: >
   Understanding AWS Direct Connect for VMware Cloud on AWS
 ---

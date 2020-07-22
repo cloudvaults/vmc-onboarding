@@ -3,6 +3,7 @@ title: "1. On-Boarding SDDC"
 linkTitle: "1. On-Boarding SDDC"
 no_list: true
 weight: 2
+date: 2020-05-06
 description: >
   Deploy your SDDC to AWS 
 ---

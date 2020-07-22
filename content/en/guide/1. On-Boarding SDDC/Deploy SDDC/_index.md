@@ -2,6 +2,7 @@
 title: "Deploy SDDC"
 linkTitle: "Deploy SDDC"
 weight: 2
+date: 2020-05-06
 description: >
   How to connect to your AWS account and deploy your SDDC
 ---

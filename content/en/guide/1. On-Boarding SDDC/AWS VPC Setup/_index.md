@@ -2,6 +2,7 @@
 title: "AWS VPC Setup"
 linkTitle: "AWS VPC Setup"
 weight: 1
+date: 2020-05-06
 description: >
   How to setup and configure the AWS VPC
 ---

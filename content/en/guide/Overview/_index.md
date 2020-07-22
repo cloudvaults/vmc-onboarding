@@ -2,6 +2,7 @@
 title: "Overview"
 linkTitle: "Overview"
 weight: 1
+date: 2020-05-06
 description: >
   Overview of the on-boarding process for your VMware Cloud on AWS SDDC (Software Defined Datacenter)
 ---
