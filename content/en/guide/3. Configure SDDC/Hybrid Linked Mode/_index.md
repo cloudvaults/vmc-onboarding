@@ -2,6 +2,7 @@
 title: "Hybrid Linked Mode"
 linkTitle: "Hybrid Linked Mode"
 weight: 2
+date: 2020-05-06
 description: >
   How to setup hybrid linked mode 
 ---

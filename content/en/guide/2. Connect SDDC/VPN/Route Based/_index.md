@@ -2,6 +2,7 @@
 title: "Route Based"
 linkTitle: "Route Based"
 weight: 2
+date: 2020-05-06
 description: >
   How to configure route based VPN for VMware Cloud on AWS 
 ---

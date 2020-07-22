@@ -3,6 +3,7 @@ title: "2. Connect SDDC"
 linkTitle: "2. Connect SDDC"
 no_list: true
 weight: 3
+date: 2020-05-06
 description: >
   How to connect your on-prem data center to VMware Cloud on AWS
 ---

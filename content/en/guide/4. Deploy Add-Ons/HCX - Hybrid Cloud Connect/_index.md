@@ -2,6 +2,7 @@
 title: "HCX - Hybrid Cloud Connect"
 linkTitle: "HCX - Hybrid Cloud Connect"
 weight: 2
+date: 2020-05-06
 description: >
   How to install HCX for VMware Cloud on AWS 
 ---

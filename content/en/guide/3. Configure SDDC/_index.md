@@ -2,6 +2,7 @@
 title: "3. Configure SDDC"
 linkTitle: "3. Configure SDDC"
 weight: 4
+date: 2020-05-06
 description: >
  Now that your SDDC is connected, let's get it setup! 
 ---

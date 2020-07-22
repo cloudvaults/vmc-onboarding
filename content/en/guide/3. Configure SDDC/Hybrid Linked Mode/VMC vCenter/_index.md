@@ -2,6 +2,7 @@
 title: "VMC vCenter"
 linkTitle: "VMC vCenter"
 weight: 2
+date: 2020-05-06
 description: >
   How to configure hybrid Linked Mode in VMware Cloud on AWS 
 ---

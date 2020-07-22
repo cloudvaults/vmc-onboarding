@@ -2,6 +2,7 @@
 title: "4. Deploy Add-Ons"
 linkTitle: "4. Deploy Add-Ons"
 weight: 5
+date: 2020-05-06
 description: >
   Now that your SDDC is deployed, connected and configured you can deploy optional add-ons
 ---
