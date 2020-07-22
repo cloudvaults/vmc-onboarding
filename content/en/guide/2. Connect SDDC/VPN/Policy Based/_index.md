@@ -2,6 +2,8 @@
 title: "Policy Based"
 linkTitle: "Policy Based"
 weight: 2
+date: 2020-05-06
+author: Mark Meulemans ([@markmeulemans](https://twitter.com/markmeulemans))
 description: >
   How to setup Policy based VPN for VMware Cloud on AWS
 ---
