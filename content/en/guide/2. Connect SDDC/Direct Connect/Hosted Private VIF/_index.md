@@ -12,8 +12,9 @@ description: >
 In this guide we will be connecting your on-prem data center to your VMware Cloud on AWS SDDC
 
 
-
 ![Overview](https://vmc-onboarding-images.s3-us-west-2.amazonaws.com/2.Connect-SDDC/direct-connect/hosted-private-vif/overview.png)
+
+## Before we get started, here is an overview video of what you will be doing 
 
 {{< youtube yNcHDk2l_TY >}}
 
