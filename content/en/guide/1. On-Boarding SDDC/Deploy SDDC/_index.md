@@ -88,7 +88,7 @@ It may take up to 10 minutes to complete before you can click next
 
 ![Agree and Deploy](https://vmc-onboarding-images.s3.amazonaws.com/1.Onboarding-SDDC/deploy-sddc/agreeanddeploy.png)
 
-## Demploying SDDC
+## Deploying SDDC
 
 This can take up to 2 hours, take a break or go take a <a href="https://hol.vmware.com" target="_blank">VMware Hands on Lab</a> !
 
