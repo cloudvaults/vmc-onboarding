@@ -1,7 +1,7 @@
 ---
 draft: true
-title: "HCX - Troubleshooting"
-linkTitle: "HCX - Troubleshooting"
+title: "HCX - Migration"
+linkTitle: "HCX - Migration"
 weight: 3
 date: 2021-03-14
 description: >
