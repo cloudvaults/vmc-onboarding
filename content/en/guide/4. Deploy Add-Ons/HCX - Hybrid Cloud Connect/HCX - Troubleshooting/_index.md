@@ -1,11 +1,12 @@
-#---
-#title: "HCX - Troubleshooting"
+---
+draft: false
+title: "HCX - Troubleshooting"
 #linkTitle: "HCX - Troubleshooting"
-#weight: 3
-#date: 2021-03-14
-#description: >
-#  How to troubleshoot HCX for VMware Cloud on AWS 
-#---
+weight: 3
+date: 2021-03-14
+description: >
+  How to troubleshoot HCX for VMware Cloud on AWS 
+---
 
 ## Introduction
 
