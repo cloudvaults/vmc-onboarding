@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: "HCX - Troubleshooting"
 #linkTitle: "HCX - Troubleshooting"
 weight: 3
