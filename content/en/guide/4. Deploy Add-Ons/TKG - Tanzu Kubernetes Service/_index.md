@@ -334,54 +334,66 @@ First, you need to login again and specify the TKC cluster you just created, ent
  
 ### 53. Change context to the TKC cluster, again making sure you change the item in red to your TKC cluster name
 <pre>kubectl config use-context rkelly-tkc1</pre>
+
 ![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/now-change-context-to-the-tkc-cluster-again-change-the-item-in-red-to-your-tkc-cluster-name.jpg)
 
 
  
 ### 54. Create a new name space in the cluster, type the following and press enter
 <pre>kubectl create ns poc</pre>
+
 ![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/now-let-s-create-a-new-name-space-in-the-cluster--type-the-following-and-press-enter.jpg)
 
 
  
 ### 55. List the namespaces with the following command
 <pre>kubectl get ns</pre>
+
 ![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/now-list-the-namespaces-with-the-following-command.jpg)
 
 
  
 ### 56. Change to that namespace with the following command
+
 <pre>kubectl config set-context --current --namespace=poc</pre>
+
 ![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/now-let-s-change-to-that-namespace-with-the-folloing-command.jpg)
 
 
  
 ### 57. Before we deploy a container we need to disable some old Kubernetes security features with the following command
 <pre>kubectl apply -f https://raw.githubusercontent.com/vmtocloud/tanzuonvmc/main/disable-psp.yaml</pre>
+
 ![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/now-before-we-deploy-a-container-we-need-to-disable-some-old-kubernetes-security-features-with-the-f.jpg)
 
 
  
 ### 58. Deploy a container with the following command
+
 <pre>kubectl create deployment --image=public.ecr.aws/m0z6y2h1/nginx:latest nginx --port=80</pre>
+
 ![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/now-we-can-deploy-a-container-with-the-following-command.jpg)
 
 
  
 ### 59. Check the status of the deployment with the following command
 <pre>kubectl get deployments</pre>
+
 ![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/now-let-s-check-the-status-of-the-deployment-with-the-following-command.jpg)
 
 
  
 ### 60. When you get a Ready status , expose the deployment so you can access the container application with the following command
+
 <pre>kubectl expose deployment nginx --type=LoadBalancer --name=nginx-service</pre>
+
 ![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/it-looks-good-so-now-let-s-expose-the-deployment-so-we-can-open-the-web-page-with-the-following-comm.jpg)
 
 
  
 ### 61. Get the IP address of the Web Server of this container with the following command
 <pre>kubectl describe services nginx-service</pre>
+
 ![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/now-let-s-get-the-ip-address-of-the-web-server-of-this-container-with-the-following-command.jpg)
 
 Copy that IP to the clipboard for the next step
@@ -389,6 +401,7 @@ Copy that IP to the clipboard for the next step
  
 ### 62. Check that the site is up by typing the following command changing the Item in red to your Load Balancer ingress IP you copied earlier
 <pre>wget http://<font color="red">10.10.2.6</font></pre> 
+
 ![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/now-let-s-check-it-is-up-by-typing-the-follwoing-command-with-that-load-balancer-ingress-ip.jpg)
 
 
