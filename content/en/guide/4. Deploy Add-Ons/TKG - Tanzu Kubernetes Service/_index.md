@@ -257,6 +257,7 @@ spec:
  
 ### 41. Type the following and press enter
 <pre>kubectl create -f tmc-registration.yaml</pre>
+
 ![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/now-type-the-following-and-press-enter.jpg)
 
 
