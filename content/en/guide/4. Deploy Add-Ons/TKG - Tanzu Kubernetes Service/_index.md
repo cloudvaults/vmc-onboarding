@@ -402,7 +402,7 @@ Copy that IP to the clipboard for the next step
 ### 62. Check that the site is up by typing the following command changing the Item in red to your Load Balancer ingress IP you copied earlier
 <pre>wget http://<font color="red">10.10.2.6</font></pre> 
 
-![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/now-let-s-check-it-is-up-by-typing-the-follwoing-command-with-that-load-balancer-ingress-ip.jpg)
+![NewActivation](https://vmc-onboarding-images.s3.us-west-2.amazonaws.com/4.Deploy-add-ons/tkg/now-let-s-check-it-is-up-by-typing-the-following-command-with-that-load-balancer-ingress-ip.jpg)
 
 
  

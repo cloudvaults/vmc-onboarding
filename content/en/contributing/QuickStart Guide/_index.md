@@ -24,7 +24,7 @@ brew install hugo
 If you are on a Windows machine and use [Chocolatey](https://chocolatey.org/) for package management, you can install Hugo with the following one-liner:
 
 ```bash
-choco install hugo -confirm
+choco install hugo-extended -confirm
 ```
 
 ## Install Git
